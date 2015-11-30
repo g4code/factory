@@ -11,6 +11,30 @@ composer require g4/factory
 ```
 
 ## Usage
+Interfaces
+
+```php
+<?php
+
+namespace G4\Factory;
+
+interface CreateInterface
+{
+    public function create();
+}
+
+interface MappingInterface
+{
+    public function id();
+
+    public function map();
+}
+
+interface ReconstituteInterface
+{
+    public function reconstitute();
+}
+```php
 
 ## Development
 
