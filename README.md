@@ -34,7 +34,7 @@ interface ReconstituteInterface
 {
     public function reconstitute();
 }
-```php
+```
 
 ## Development
 
