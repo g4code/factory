@@ -41,10 +41,10 @@ abstract class FromArrayAbstract
     /**
      * @param array $data
      */
-    public function set(array $data = null)
+    public function set($data = null)
     {
         $this->data = [];
-        if ($data !== null) {
+        if ($data !== null && is_array($data)) {
             $this->data = $data;
         }
         return $this;

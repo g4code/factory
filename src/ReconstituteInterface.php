@@ -6,5 +6,5 @@ interface ReconstituteInterface
 {
     public function reconstitute();
 
-    public function set($data);
+    public function set($data = null);
 }
