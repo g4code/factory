@@ -35,5 +35,10 @@
     },
     "require": {
         "php": ">=5.4"
+    },
+    "scripts": {
+        "test": [
+            "vendor/bin/phpunit -c test/phpunit.xml"
+        ]
     }
 }

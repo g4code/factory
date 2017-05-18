@@ -40,11 +40,11 @@ interface ReconstituteInterface
 
 ### Install dependencies
 
-    $ make install
+    $ composer install
 
 ### Run tests
 
-    $ make test
+    $ composer test
 
 ## License
 
