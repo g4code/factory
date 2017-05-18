@@ -39,6 +39,14 @@ abstract class FromArrayAbstract
     }
 
     /**
+     * @return bool
+     */
+    public function hasData()
+    {
+        return is_array($this->data) && count($this->data) > 0;
+    }
+
+    /**
      * @param array $data
      */
     public function set($data = null)

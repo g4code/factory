@@ -38,6 +38,13 @@ class FromArrayAbstractTest extends PHPUnit_Framework_TestCase
         $this->assertFalse($this->fromArrayAbstract->has('id'));
     }
 
+    public function testHasData()
+    {
+        $this->assertTrue($this->fromArrayAbstract->hasData());
+        $this->fromArrayAbstract->set();
+        $this->assertFalse($this->fromArrayAbstract->hasData());
+    }
+
     public function testSet()
     {
         $this->fromArrayAbstract->set();

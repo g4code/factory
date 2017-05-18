@@ -9,6 +9,8 @@
 composer.phar
 vendor
 
+test/coverage
+
 .buildpath
 .project
 .settings

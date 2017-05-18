@@ -38,7 +38,7 @@
     },
     "scripts": {
         "test": [
-            "vendor/bin/phpunit -c test/phpunit.xml"
+            "vendor/bin/phpunit -c test/phpunit.xml --coverage-html test/coverage"
         ]
     }
 }
