@@ -39,6 +39,15 @@ abstract class FromArrayAbstract
     }
 
     /**
+     * @param $key
+     * @return bool
+     */
+    public function hasNonEmptyValue($key)
+    {
+        return $this->has($key) && !empty($this->data[$key]);
+    }
+
+    /**
      * @return bool
      */
     public function hasData()
